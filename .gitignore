@@ -1,3 +1,4 @@
-GMTool/GMTool/bin/
-GMTool/GMTool/obj/
+*bin/
+*obj/
 GMTool/GMTool/obj/Debug/android/gmtool/gmtool/R.java
+*.dll

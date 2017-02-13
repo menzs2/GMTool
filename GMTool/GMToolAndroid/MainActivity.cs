@@ -2,9 +2,9 @@
 using Android.Widget;
 using Android.OS;
 
-namespace GMTool
+namespace GMToolAndroid
 {
-    [Activity(Label = "GMTool", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "GMToolAndroid", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -12,7 +12,7 @@ namespace GMTool
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            SetContentView (Resource.Layout.Main);
+            // SetContentView (Resource.Layout.Main);
         }
     }
 }
