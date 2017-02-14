@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    <string name="ApplicationName">GMToolAndroid</string>
-  <string name="Campaign">Campaign</string>
-  <string name="NPC">NPC</string>
+  <string name="ApplicationName">GMTool</string>
+  <!--Button texts-->
+  <string name="Campaign">Kampagne</string>
+  <string name="openCampaign">Kampagne bearbeiten</string>
+  <string name="newCampaign">Neue Kampagne</string>
+  <string name="NPC">NSC</string>
 </resources>

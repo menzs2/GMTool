@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="GMToolAndroid.GMToolAndroid" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="16" />
-  <application android:label="GMToolAndroid"></application>
-  <supports-screens android:resizeable="true"
-                  android:smallScreens="true"
-                  android:normalScreens="true"
-                  android:largeScreens="true"
-                  android:xlargeScreens="true"
-                 />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="GMToolAndroid.GMToolAndroid" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="GMTool"></application>
+	<supports-screens android:resizeable="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
 </manifest>

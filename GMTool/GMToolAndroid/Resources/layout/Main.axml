@@ -6,13 +6,19 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <Button
-        android:text="@string/NPC"
+        android:text="@string/newCampaign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonNPC" />
+        android:id="@+id/buttonNewCampaign" />
     <Button
-        android:text="@string/Campaign"
+        android:text="@string/openCampaign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonCampaign" />
+        android:id="@+id/buttonOpenCampaign" />
+    <TextView
+        android:text="Name der Kampagne"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCampaignName" />
 </LinearLayout>

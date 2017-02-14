@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace GMToolAndroid
 {
-    [Activity(Label = "GMToolAndroid", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "GMTool", MainLauncher = true, Icon = "@drawable/dice")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -12,7 +12,7 @@ namespace GMToolAndroid
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            // SetContentView (Resource.Layout.Main);
+            SetContentView (Resource.Layout.Main);
         }
     }
 }
