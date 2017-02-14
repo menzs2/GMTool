@@ -20,5 +20,6 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewCampaignName" />
+        android:id="@+id/textViewCampaignName"
+        android:paddingLeft="12px" />
 </LinearLayout>

@@ -1,19 +1,29 @@
-﻿using Android.App;
-using Android.Widget;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
 using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
 
 namespace GMToolAndroid
 {
-    [Activity(Label = "GMTool", MainLauncher = true, Icon = "@drawable/dice")]
+    [Activity(Label = "GM Tool" , MainLauncher = true, Icon = "@drawable/dice")]
     public class MainActivity : Activity
     {
-        protected override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(bundle);
+            base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.Main);
 
-            // Set our view from the "main" layout resource
-            SetContentView (Resource.Layout.Main);
+            Button newCampaign = FindViewById<Button>(Resource.Id.buttonNewCampaign);
+            Button openCampaign = FindViewById<Button>(Resource.Id.buttonOpenCampaign);
+
+            // Create your application here
         }
     }
 }
-
