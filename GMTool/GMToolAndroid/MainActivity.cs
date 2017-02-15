@@ -23,7 +23,11 @@ namespace GMToolAndroid
             Button newCampaign = FindViewById<Button>(Resource.Id.buttonNewCampaign);
             Button openCampaign = FindViewById<Button>(Resource.Id.buttonOpenCampaign);
 
-            // Create your application here
+            openCampaign.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(CampaignActivity));
+                StartActivity(intent);
+            };
         }
     }
 }

@@ -5,5 +5,6 @@
   <string name="Campaign">Kampagne</string>
   <string name="openCampaign">Kampagne bearbeiten</string>
   <string name="newCampaign">Neue Kampagne</string>
-  <string name="NPC">NSC</string>
+  <string name="npc">NSC</string>
+  <string name="events">Ereignisse</string>
 </resources>

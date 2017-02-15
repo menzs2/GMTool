@@ -50,6 +50,9 @@ namespace GMToolAndroid
 			// aapt resource value: 0x7f020001
 			public const int Icon = 2130837505;
 			
+			// aapt resource value: 0x7f020002
+			public const int RgpIcon64px = 2130837506;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -63,14 +66,20 @@ namespace GMToolAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int buttonNewCampaign = 2131034112;
+			// aapt resource value: 0x7f050002
+			public const int buttonEvents = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int buttonNewCampaign = 2131034115;
 			
 			// aapt resource value: 0x7f050001
-			public const int buttonOpenCampaign = 2131034113;
+			public const int buttonNpc = 2131034113;
 			
-			// aapt resource value: 0x7f050002
-			public const int textViewCampaignName = 2131034114;
+			// aapt resource value: 0x7f050004
+			public const int buttonOpenCampaign = 2131034116;
+			
+			// aapt resource value: 0x7f050000
+			public const int textViewCampaignName = 2131034112;
 			
 			static Id()
 			{
@@ -86,7 +95,10 @@ namespace GMToolAndroid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Campaign = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -107,11 +119,14 @@ namespace GMToolAndroid
 			// aapt resource value: 0x7f040001
 			public const int Campaign = 2130968577;
 			
-			// aapt resource value: 0x7f040004
-			public const int NPC = 2130968580;
+			// aapt resource value: 0x7f040005
+			public const int events = 2130968581;
 			
 			// aapt resource value: 0x7f040003
 			public const int newCampaign = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int npc = 2130968580;
 			
 			// aapt resource value: 0x7f040002
 			public const int openCampaign = 2130968578;
