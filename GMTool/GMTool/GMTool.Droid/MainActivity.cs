@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace GMToolAndroid
+namespace GMTool.Droid
 {
     [Activity(Label = "GM Tool" , MainLauncher = true, Icon = "@drawable/dice")]
     public class MainActivity : Activity

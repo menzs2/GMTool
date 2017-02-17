@@ -3,26 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMToolAndroid", "GMToolAndroid\GMToolAndroid.csproj", "{A2F31138-7383-45A0-B94F-05708E713859}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMTool.Droid", "GMTool\GMTool.Droid\GMTool.Droid.csproj", "{ED227634-ED39-4476-AED3-9CAA25980F34}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GMToolShared", "GMToolShared\GMToolShared.xproj", "{7A77181F-DD8D-4B63-ADFF-F090DBDAA584}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GMTool", "GMTool\GMTool\GMTool.shproj", "{8EAAD437-F1C7-428D-8462-8A7E139C7882}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		GMTool\GMTool\GMTool.projitems*{8eaad437-f1c7-428d-8462-8a7e139c7882}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2F31138-7383-45A0-B94F-05708E713859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2F31138-7383-45A0-B94F-05708E713859}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2F31138-7383-45A0-B94F-05708E713859}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{A2F31138-7383-45A0-B94F-05708E713859}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2F31138-7383-45A0-B94F-05708E713859}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A2F31138-7383-45A0-B94F-05708E713859}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{7A77181F-DD8D-4B63-ADFF-F090DBDAA584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A77181F-DD8D-4B63-ADFF-F090DBDAA584}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A77181F-DD8D-4B63-ADFF-F090DBDAA584}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A77181F-DD8D-4B63-ADFF-F090DBDAA584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED227634-ED39-4476-AED3-9CAA25980F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED227634-ED39-4476-AED3-9CAA25980F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED227634-ED39-4476-AED3-9CAA25980F34}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED227634-ED39-4476-AED3-9CAA25980F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED227634-ED39-4476-AED3-9CAA25980F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED227634-ED39-4476-AED3-9CAA25980F34}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
