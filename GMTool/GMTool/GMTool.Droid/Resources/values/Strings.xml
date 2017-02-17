@@ -1,5 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">GMTool.Droid</string>
+  <string name="ApplicationName">GMTool</string>
+  <!--Button texts-->
+  <string name="openCampaign">Kampagne bearbeiten</string>
+  <string name="newCampaign">Neue Kampagne</string>
+  <string name="npc">NSC</string>
+  <string name="events">Ereignisse</string>
+  <string name="Campaign">Kampagne</string>
 </resources>

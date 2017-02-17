@@ -1,35 +1,33 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.OS;
 
-namespace GMTool.Droid
+namespace GMToolAndroid
 {
-	[Activity (Label = "GMTool.Droid", MainLauncher = true, Icon = "@drawable/icon")]
-	public class MainActivity : Activity
-	{
-		int count = 1;
+    [Activity(Label = "GM Tool" , MainLauncher = true, Icon = "@drawable/dice")]
+    public class MainActivity : Activity
+    {
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.Main);
 
-		protected override void OnCreate (Bundle bundle)
-		{
-			base.OnCreate (bundle);
+            Button newCampaign = FindViewById<Button>(Resource.Id.buttonNewCampaign);
+            Button openCampaign = FindViewById<Button>(Resource.Id.buttonOpenCampaign);
 
-			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
-
-			// Get our button from the layout resource,
-			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
-			};
-		}
-	}
+            openCampaign.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(CampaignActivity));
+                StartActivity(intent);
+            };
+        }
+    }
 }
-
-
